@@ -1,0 +1,359 @@
+' ******************************************************************************
+' swxJRNL.swj - journal recorded on 09/08/14 by pc-users
+' *****************************************************************************
+Dim swApp As Object
+
+Dim Part As Object
+Dim boolstatus As Boolean
+Dim longstatus As Long, longwarnings As Long
+
+Sub main()
+
+Set swApp = _
+Application.SldWorks
+
+swApp.ActivateDoc2 "furnature - comp_table(2)", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Dim myModelView As Object
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Part.ViewZoomtofit2
+Part.ClearSelection2 True
+' MSGBOX
+' Save changes to furnature - #1,3?
+
+Set Part = Nothing
+swApp.CloseDoc "furnature - #1, 3"
+swApp.ActivateDoc2 "furnature - comp_table(2)", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Part.ViewZoomtofit2
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+' MSGBOX
+' Save changes to furnature - #2?
+
+Set Part = Nothing
+swApp.CloseDoc "furnature - #2"
+swApp.ActivateDoc2 "furnature - comp_table(2)", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Part.ViewZoomtofit2
+Part.EditCopy
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "furnature_v2 - comp_table(2)", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ViewZoomtofit2
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 3
+myModelView.FrameTop = 24
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowNormal
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 3
+myModelView.FrameTop = 31
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 17
+myModelView.FrameTop = 61
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 23
+myModelView.FrameTop = 75
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 29
+myModelView.FrameTop = 90
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 31
+myModelView.FrameTop = 98
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 32
+myModelView.FrameTop = 101
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 40
+myModelView.FrameTop = 109
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 41
+myModelView.FrameTop = 111
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 42
+myModelView.FrameTop = 111
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 43
+myModelView.FrameTop = 111
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 111
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 110
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 108
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 106
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 105
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 104
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 103
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 102
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 101
+swApp.ActivateDoc2 "furnature - #1, 3", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 0
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Part.ViewZoomtofit2
+Part.ClearSelection2 True
+Set Part = Nothing
+swApp.CloseDoc "furnature - #1, 3"
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 44
+myModelView.FrameTop = 101
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "furnature_v2 - #17", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ClearSelection2 True
+boolstatus = Part.ActivateView("Drawing View102")
+boolstatus = Part.Extension.SelectByID2("Drawing View102", "DRAWINGVIEW", 0, 0, 0, False, 0, Nothing, 0)
+boolstatus = Part.ActivateView("Drawing View101")
+boolstatus = Part.Extension.SelectByID2("left_shelf_1-1@Drawing View101", "COMPONENT", 0, 0, 0, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+Part.FileSummaryInfo
+Part.ViewZoomtofit2
+Part.ClearSelection2 True
+Part.ClearSelection2 True
+Part.ViewZoomtofit2
+boolstatus = Part.NewSheet3("Sheet1", 12, 13, 1, 20, False, "a4 - iso.slddrt", 0.29699999999999999, 0.20999999999999999, "Default")
+Part.ViewZoomtofit2
+boolstatus = Part.Extension.SelectByID2("#1, 3", "SHEET", 0, 0, 0, False, 0, Nothing, 0)
+Part.ClearSelection2 True
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 946
+myModelView.FrameTop = 24
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowNormal
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 949
+myModelView.FrameTop = 30
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 961
+myModelView.FrameTop = 43
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 969
+myModelView.FrameTop = 55
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 988
+myModelView.FrameTop = 77
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 997
+myModelView.FrameTop = 88
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1011
+myModelView.FrameTop = 107
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1021
+myModelView.FrameTop = 117
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1033
+myModelView.FrameTop = 132
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1039
+myModelView.FrameTop = 140
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1051
+myModelView.FrameTop = 155
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1054
+myModelView.FrameTop = 157
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1057
+myModelView.FrameTop = 160
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1057
+myModelView.FrameTop = 153
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1032
+myModelView.FrameTop = 115
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1017
+myModelView.FrameTop = 90
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 1000
+myModelView.FrameTop = 68
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 985
+myModelView.FrameTop = 52
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 973
+myModelView.FrameTop = 39
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 971
+myModelView.FrameTop = 35
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 970
+myModelView.FrameTop = 32
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 968
+myModelView.FrameTop = 32
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 967
+myModelView.FrameTop = 31
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 966
+myModelView.FrameTop = 30
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 965
+myModelView.FrameTop = 29
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 962
+myModelView.FrameTop = 26
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 959
+myModelView.FrameTop = 23
+Set Part = swApp.OpenDoc6("C:\Users\E.Frumker\Google Drive\Lev\LAB_DESIGN_SW\all_lab_assembly.SLDASM", 2, 0, "", longstatus, longwarnings)
+swApp.ActivateDoc2 "all_lab_assembly.SLDASM", False, longstatus
+Set Part = swApp.ActiveDoc
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+boolstatus = Part.Extension.SelectByID2("", "FACE", 6.7147053366445562, 13.510561848358918, 13.718922549537638, False, 0, Nothing, 0)
+Part.OpenCompFile
+Set Part = swApp.OpenDoc6("C:\Users\E.Frumker\Desktop\lab_version_with_curtains\v1\kitchen_parts\left_shelf_1_down.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "left_shelf_1_down.SLDPRT", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ClearSelection2 True
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set Part = Nothing
+swApp.CloseDoc "left_shelf_1_down.SLDPRT"
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "all_lab_assembly.SLDASM", False, longstatus
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+boolstatus = Part.Extension.SelectByID2("", "FACE", 6.8549744033319371, 13.49192472719335, 13.718922549537638, False, 0, Nothing, 0)
+Part.OpenCompFile
+Set Part = swApp.OpenDoc6("C:\Users\E.Frumker\Desktop\lab_version_with_curtains\v1\kitchen_parts\left_shelf_1_down.SLDPRT", 1, 0, "", longstatus, longwarnings)
+Set Part = swApp.ActiveDoc
+Set myModelView = Part.ActiveView
+myModelView.FrameLeft = 0
+myModelView.FrameTop = 21
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+swApp.ActivateDoc2 "left_shelf_1_down.SLDPRT", False, longstatus
+Set Part = swApp.ActiveDoc
+Part.ClearSelection2 True
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Set myModelView = Part.ActiveView
+myModelView.FrameState = swWindowState_e.swWindowMaximized
+Part.ClearSelection2 True
+swApp.ExitApp
+End Sub
